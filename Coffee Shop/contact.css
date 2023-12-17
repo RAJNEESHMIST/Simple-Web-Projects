@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Assets/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    margin: 30px 8%;
+    margin-bottom: 2%;
+
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50%;
+
+}
+
+nav ul img {
+    height: 80px;
+    width: 120px;
+    cursor: pointer;
+}
+
+/* .tab{
+    color: aquamarine;
+} */
+
+nav ul .tab {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(220, 143, 43);
+    cursor: pointer;
+    /* color: rgb(58, 11, 11); */
+}
+
+.tab a:hover {
+    color: rgb(17, 231, 156);
+    /* cursor: pointer; */
+}
+.home:hover{
+    color: rgb(43, 13, 13);
+    font-size: 17px;
+}
+
+.ourMenu:hover {
+    color: rgb(43, 13, 13);
+    font-size: 17px;
+}
+
+.maps:hover {
+    color: rgb(43, 13, 13);
+    font-size: 17px;
+
+}
+
+.about:hover {
+    color: rgb(43, 13, 13);
+    font-size: 17px;
+
+
+}
+
+.contact:hover {
+    color: rgb(43, 13, 13);
+    font-size: 17px;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    ;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+body section.main {
+    margin-left: 32%;
+    width: 35%;
+    height: fit-content;
+    background-color: rgb(231, 238, 242);
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(218, 171, 149);
+}
+
+.top {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: rgb(42, 3, 3);
+}
+
+section .input {
+    /* color: aqua; */
+    color: rgb(42, 3, 3);
+    margin-left: 25%;
+    margin-right: 23%;
+    padding: 10px;
+    font-weight: 600;
+    justify-content: center;
+    background-color: rgb(199, 161, 109);
+}
+
+section div input {
+    padding: 5px 40px 8px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(218, 233, 246);
+    /* color: rgb(20, 44, 65); */
+}
+
+section div textarea {
+    padding-left: 45px;
+    border-radius: 10px;
+    border: none;
+}
+
+section div label {
+    margin-top: 10px;
+}
+
+#message {
+    padding-bottom: 20%;
+    margin-bottom: 5px;
+}
+
+section div button {
+    margin: 5% 28.5%;
+    font-size: 18px;
+    padding: 8px 16%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(122, 84, 84);
+    font-weight: 500;
+}
+
+section div button:hover {
+    font-size: 20px;
+    margin-left: 28%;
+    color: rgb(42, 3, 3);
+    background-color: rgb(137, 174, 206);
+    cursor: pointer;
+}

@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Assets/empty-sofa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    margin: 30px 10%;
+    margin-bottom: 2%;
+
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50%;
+
+}
+
+nav ul img {
+    height: 80px;
+    width: 120px;
+    cursor: pointer;
+}
+
+/* .tab{
+    color: aquamarine;
+} */
+
+nav ul .tab {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+    cursor: pointer;
+    /* color: rgb(58, 11, 11); */
+}
+
+.tab a:hover {
+    color: rgb(17, 231, 156);
+    /* cursor: pointer; */
+}
+.home:hover{
+    color: rgb(43, 13, 13);
+    font-size: 19px;
+}
+.ourMenu:hover {
+    color: rgb(43, 13, 13);
+    font-size: 19px;
+}
+
+.maps:hover {
+    color: rgb(43, 13, 13);
+    font-size: 19px;
+
+}
+
+.about:hover {
+    color: rgb(43, 13, 13);
+    font-size: 19px;
+
+
+}
+
+.contact:hover {
+    color: rgb(43, 13, 13);
+    font-size: 19px;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    ;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+/* main section */
+body section.main {
+    margin-left: 15%;
+    width: 70%;
+    height: fit-content;
+    background-color: rgb(231, 238, 242);
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(218, 171, 149);
+}
+
+.top {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: rgb(42, 3, 3);
+}
+
+
+section .input {
+    /* color: aqua; */
+    color: rgb(42, 3, 3);
+    margin-left: 25%;
+    margin-right: 23%;
+    padding: 10px;
+    font-weight: 600;
+    justify-content: center;
+    background-color: rgb(199, 161, 109);
+}
+.main1{
+display: flex;
+justify-content: space-between;
+margin:8px 15%;
+font-weight: 700;
+font-size: 18px;
+}
+.main2{
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+/* left list */
+.leftList{
+    display: flex;
+    gap: 10%;
+}
+.price{
+    list-style: none;
+    margin-left: 100px;
+}
+/* section div input {
+    padding: 5px 40px 8px 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(218, 233, 246);
+    /* color: rgb(20, 44, 65); */
+
+
+/* section div textarea {
+    padding-left: 45px;
+    border-radius: 10px;
+    border: none;
+}
+
+section div label {
+    margin-top: 10px;
+}
+
+#message {
+    padding-bottom: 20%;
+    margin-bottom: 5px;
+} */

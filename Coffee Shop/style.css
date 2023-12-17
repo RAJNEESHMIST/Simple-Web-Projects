@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: opx;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(./Assets/coffee1.jpg);
+    background-size: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul img {
+    height: 80px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.menu {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(239, 115, 6, 0.797);
+    display: flex;
+    gap: 45px;
+    cursor: pointer;
+}
+.home:hover{
+    font-size: 22px;
+    color: rgb(9, 157, 231);
+
+}
+.ourMenu:hover{
+    font-size: 22px;
+    color: rgb(9, 157, 231);
+}
+.maps:hover{
+    font-size: 22px;
+    color: rgb(9, 157, 231);
+}
+.about:hover{
+    font-size: 22px;
+    color: rgb(9, 157, 231);
+}
+.contact:hover{
+    font-size: 22px;
+    color: rgb(9, 157, 231);
+}
+nav ul li {
+    list-style: none;
+}
+
+nav ul button {
+    border-radius: 5px;
+    padding: 8px 30px;
+    color: white;
+    background-color: rgb(186, 28, 28);
+    font-size: 15px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav ul button:hover {
+    color: rgb(7, 89, 7);
+    background-color: rgb(160, 204, 242);
+    font-size: 16px;
+}
+
+main div {
+    width: 60%;
+    margin-left: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+main div h1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: 900;
+    font-size: 90px;
+    text-align: center;
+    color: rgba(8, 224, 33, 0.797);
+}
+
+main div button {
+    margin-left: 40%;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(204, 14, 14);
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main div button:hover{
+    color: rgb(7, 89, 7);
+    background-color: rgb(160, 204, 242);
+    font-size: 19px;
+
+
+}
+
+footer {
+    margin-left: 90%;
+}
+
+footer img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
