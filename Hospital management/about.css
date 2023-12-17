@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 30px 10%;
+    margin-bottom: 2%;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50%;
+
+}
+
+nav ul .tab {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    gap: 25px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+    ;
+
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+.tab a:hover{
+    color: rgb(17, 231, 156);
+}
+
+section {
+    margin: 10% 30%;
+    text-align: center;
+}
+
+section div h1 {
+    color: rgb(5, 203, 137);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section div p {
+    color: #414141;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+section div button {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 44px;
+    border: none;
+    border-radius: 10px;
+    border-collapse: separate;
+
+}
+.btn {
+    padding: 15px 30px;
+    margin: 20px;
+}
+section div button h2{
+    color: rgb(5, 203, 127);
+}
