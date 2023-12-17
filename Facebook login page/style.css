@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* background-color: rgba(199, 89, 89, 0.146); */
+}
+body{
+    background-color: rgba(208, 203, 203, 0.253);
+}
+header{
+    text-align: center;
+}
+header img{
+    /* text-align: center; */
+    height: 100px;
+    /* align-items: center; */
+}
+main {
+    border-radius: 10px;
+    /* margin-left: ; */
+    margin: 0% 32.5%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* padding: 15px; */
+}
+.fom{
+    padding: 20px;
+}
+main h1{
+    /* border: 2px solid; */
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    font-weight: 900;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+main p.head{
+    text-align: center;
+    font-size: large;
+    padding-bottom: 12px;
+    color: rgb(102, 109, 115);
+
+}
+main form div #NameS{
+    /* justify-content: space-between; */
+    gap:2%;
+}
+
+main form div #name{
+    padding: 9px 5px ;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1.5px solid;
+    border-color: rgb(197, 201, 203);
+    
+}
+main form div #surname{
+    padding: 9px 5px;
+    font-size: 15px;
+    margin-left: 7px;
+    border-radius: 6px;
+    border: 1.5px solid;
+    border-color: rgb(197, 201, 203);
+}
+main form div #mob{
+    margin: 10px 0px;
+    padding: 10px ;
+    padding-right: 225px;
+    border-radius: 6px;
+    border: 1.5px solid;
+    border-color: rgb(197, 201, 203);
+}  
+main form div #password{
+    /* margin: 10px 0px; */
+    margin-bottom: 10px;
+    padding: 10px ;
+    padding-right: 225px;
+    border-radius: 6px;
+    border: 1.5px solid;
+    border-color: rgb(197, 201, 203);
+}
+main form div  #date,#month,#year{
+    margin-top: 8px;
+    margin-right: 5px;
+    padding: 9px;
+    padding-right:61px ;
+    border-radius: 6px;
+    border: 1.5px solid;
+    border-color: rgb(197, 201, 203);
+    margin-bottom:10px;
+}
+main form #gen{
+    margin-top: 8px;
+    display: flex;
+    
+}
+main form div #gn{
+    display: flex;
+    gap: 40px;
+    margin-bottom:10px;
+    border-radius: 6px;
+    border: 1.5px solid;
+    border-color: rgb(197, 201, 203);
+    margin-bottom:10px;
+    padding:9px 12px ;
+    margin-right: 10px;
+}
+main #para{
+    color: rgb(119, 125, 130);
+    font-size: 12px;
+    margin-bottom:10px ;
+}
+main div button{
+    padding: 8px 60px;
+    margin-left: 25%;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    background-color: rgb(23, 145, 1);
+    margin-bottom: 10px;
+}
+main div button:hover{
+    background-color: rgb(21, 119, 3);
+}
+footer a{
+    margin-left: 25%;
+    font-size: 20px;                                                                                                                                                                      
+    
+}
+a{
+    text-decoration: none;
+   
+}
