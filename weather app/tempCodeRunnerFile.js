@@ -1,0 +1,1 @@
+weather-by-api-ninjas.p.rapidapi.com

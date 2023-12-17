@@ -1,0 +1,27 @@
+body{
+    background-image:url(./assets/image8.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size:cover;
+}
+.container-fluid{
+    background-color: rgb(65, 114, 160);
+    padding: 0px;
+
+}
+#webapp{
+    color:black;
+    padding: 40px;
+}
+#form{
+    padding-right: 10px;
+    gap: 10px;
+}
+#submit{
+    background-color:rgb(10, 183, 222);
+    color: white;
+}
+#submit:hover{
+    color: black;
+    background-color: rgb(71, 111, 176);
+}
